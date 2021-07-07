@@ -18,7 +18,7 @@ const Home = () => {
     setInput(ev.target.value);
     // console.log(ev.target.value);
   };
-
+// for enter keyword 
   const onKeyDown = ev => {
     if (ev.keyCode === 13) {
       onSearch();
