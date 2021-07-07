@@ -7,8 +7,8 @@ const LINKS = [
     text: 'HOME',
   },
   {
-    to: '/start',
-    text: 'START',
+    to: '/bookmark',
+    text: 'BOOKMARK',
   },
 ];
 
