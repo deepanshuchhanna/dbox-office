@@ -1,11 +1,20 @@
 import React from 'react';
-
+import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-    Deep
-    </div>
+    <Switch>
+      <Route exact path="/">
+        {' '}
+        HOME PAGE{' '}
+      </Route>
+
+      <Route exact path="/d">
+        {' '}
+        DEEP PAGE{' '}
+      </Route>
+      <Route>404 ERROR PAGE </Route>
+    </Switch>
   );
 }
 
