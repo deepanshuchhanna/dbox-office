@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 // import Navs from './components/Navs';
 import Home from './pages/Home';
 import Start from './pages/Bookmark';
+import Show from './pages/Show';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
 
       <Route exact path="/bookmark">
         <Start />
+      </Route>
+      <Route exact path="/show/:id">
+        <Show />
       </Route>
       <Route>
         <div>
