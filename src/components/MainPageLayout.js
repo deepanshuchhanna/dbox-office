@@ -6,7 +6,7 @@ const MainPageLayout = ({ children }) => {
   return (
     <div>
       <Tittle
-        title="D'STAR MOVIES - BOX"
+        title="D'STAR MOVIES-BOX"
         subtitle="Are You Looking For a Movie or an Actor?"
       />
       <Navs />
