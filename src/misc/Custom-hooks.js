@@ -30,6 +30,6 @@ function usePersistedReducer(reducer, initialState, key) {
 }
 
 // we are making this hook to avoid the multiple calling of the usePersisted
-export function useShows(key = ' shows') {
+export function useShows(key = 'shows') {
   return usePersistedReducer(showsReducer, [], key);
 }
