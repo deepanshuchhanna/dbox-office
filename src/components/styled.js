@@ -28,10 +28,12 @@ export const SearchCard = styled.div`
   h1 {
     margin: 10px 0;
     font-size: 21px;
+    /* color: aliceblue; */
   }
 
   p {
     margin: 0;
+    /* color: whitesmoke; */
   }
 `;
 

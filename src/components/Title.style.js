@@ -10,19 +10,19 @@ export const TitleWrapper = styled.div`
     letter-spacing: 10px;
     text-transform: uppercase;
     margin: 0 0 10px;
-    color: red;
-    background-color: black;
+    color: #900603;
+    background-color: transparent;
     border-radius: 20px;
-    border-bottom: 5px solid goldenrod;
+    border-bottom: 5px solid grey;
   }
 
   p {
     color: ${({ theme }) => theme.mainColors.dark};
-    background-color: lightgrey;
-    color: black;
+    background-color: transparent;
+    color: whitesmoke;
     font-size: larger;
     border-radius: 20px;
-    border: 2px solid skyblue;
+    border-bottom: 5px solid grey;
     margin: 0;
   }
 `;

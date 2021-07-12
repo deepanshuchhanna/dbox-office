@@ -15,12 +15,18 @@ const ShowCard = ({ id, image, name, summary, onStarClick, isBookmarked }) => {
         <img src={image} alt="show" />
       </div>
 
-      <h1>{name}</h1>
+      <h1
+        style={{ color: '#900603', fontWeight: 'bolder', fontSize: 'x-large' }}
+      >
+        {name}
+      </h1>
 
-      <p>{summaryAsText}</p>
+      <p style={{ color: 'whitesmoke' }}>{summaryAsText}</p>
 
       <div className="btns">
-        <Link to={`/show/${id}`}>Read more</Link>
+        <Link to={`/show/${id}`}>
+          <span style={{ color: 'grey' }}>Read more</span>
+        </Link>
         <button type="button" onClick={onStarClick}>
           <Star active={isBookmarked} />
         </button>

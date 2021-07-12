@@ -58,11 +58,11 @@ export const Headline = styled.div`
 export const TagList = styled.div`
   display: inline-flex;
   flex-wrap: wrap;
-
+  /* color: white; */
   span {
     margin: 6px;
     margin-bottom: 0;
-    color: blue;
+    color: white;
     background-color: #d0c9ff;
     padding: 3px 13px;
     border-radius: 20px;

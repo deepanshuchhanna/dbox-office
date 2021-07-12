@@ -19,6 +19,9 @@ export const LinkStyled = styled(Link)`
   color: ${({ theme }) => theme.mainColors.gray};
   &.active {
     color: ${({ theme }) => theme.mainColors.blue};
+    color: lightgrey;
+    background-color: darkgreen;
+    border-radius: 10px;
     &:after {
       content: '';
       position: absolute;
@@ -26,7 +29,8 @@ export const LinkStyled = styled(Link)`
       height: 2px;
       left: 0%;
       bottom: 0;
-      background-color: ${({ theme }) => theme.mainColors.blue};
+      /* background-color: ${({ theme }) => theme.mainColors.blue}; */
+      /* background-color: green; */
       animation: slide-in 0.3s ease-in forwards;
       @keyframes slide-in {
         from {
