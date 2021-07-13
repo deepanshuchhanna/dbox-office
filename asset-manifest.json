@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dbox-office/static/css/main.cce90ab1.chunk.css",
-    "main.js": "/dbox-office/static/js/main.b63d224f.chunk.js",
-    "main.js.map": "/dbox-office/static/js/main.b63d224f.chunk.js.map",
+    "main.js": "/dbox-office/static/js/main.27c8005b.chunk.js",
+    "main.js.map": "/dbox-office/static/js/main.27c8005b.chunk.js.map",
     "runtime-main.js": "/dbox-office/static/js/runtime-main.6a531319.js",
     "runtime-main.js.map": "/dbox-office/static/js/runtime-main.6a531319.js.map",
     "static/js/2.dc99aa56.chunk.js": "/dbox-office/static/js/2.dc99aa56.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6a531319.js",
     "static/js/2.dc99aa56.chunk.js",
     "static/css/main.cce90ab1.chunk.css",
-    "static/js/main.b63d224f.chunk.js"
+    "static/js/main.27c8005b.chunk.js"
   ]
 }
