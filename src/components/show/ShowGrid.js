@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react-hooks/rules-of-hooks */
+import React, { useCallback } from 'react';
 import ShowCard from './ShowCard';
 import { FlexGrid } from '../styled';
 
@@ -11,13 +12,13 @@ const ShowGrid = ({ data }) => {
     <FlexGrid>
       {data.map(({ show }) => {
         const isBookmarked = bookmarkedShows.includes(show.id);
-        const onStarClick = () => {
+        const onStarClick = useCallback(() => {
           if (isBookmarked) {
             dispatchBookmarked({ type: 'REMOVE', showId: show.id });
           } else {
             dispatchBookmarked({ type: 'ADD', showId: show.id });
           }
-        };
+        }, [isBookmarked, show.id]);
         return (
           <ShowCard
             key={show.id}
