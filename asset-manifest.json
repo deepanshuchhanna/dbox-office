@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/dbox-office/static/css/main.cce90ab1.chunk.css",
-    "main.js": "/dbox-office/static/js/main.ee2505c8.chunk.js",
-    "main.js.map": "/dbox-office/static/js/main.ee2505c8.chunk.js.map",
+    "main.js": "/dbox-office/static/js/main.b63d224f.chunk.js",
+    "main.js.map": "/dbox-office/static/js/main.b63d224f.chunk.js.map",
     "runtime-main.js": "/dbox-office/static/js/runtime-main.6a531319.js",
     "runtime-main.js.map": "/dbox-office/static/js/runtime-main.6a531319.js.map",
-    "static/js/2.b5dd590e.chunk.js": "/dbox-office/static/js/2.b5dd590e.chunk.js",
-    "static/js/2.b5dd590e.chunk.js.map": "/dbox-office/static/js/2.b5dd590e.chunk.js.map",
+    "static/js/2.dc99aa56.chunk.js": "/dbox-office/static/js/2.dc99aa56.chunk.js",
+    "static/js/2.dc99aa56.chunk.js.map": "/dbox-office/static/js/2.dc99aa56.chunk.js.map",
     "index.html": "/dbox-office/index.html",
-    "service-worker.js": "/dbox-office/service-worker.js",
-    "service-worker.js.map": "/dbox-office/service-worker.js.map",
     "static/css/main.cce90ab1.chunk.css.map": "/dbox-office/static/css/main.cce90ab1.chunk.css.map",
-    "static/js/2.b5dd590e.chunk.js.LICENSE.txt": "/dbox-office/static/js/2.b5dd590e.chunk.js.LICENSE.txt"
+    "static/js/2.dc99aa56.chunk.js.LICENSE.txt": "/dbox-office/static/js/2.dc99aa56.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6a531319.js",
-    "static/js/2.b5dd590e.chunk.js",
+    "static/js/2.dc99aa56.chunk.js",
     "static/css/main.cce90ab1.chunk.css",
-    "static/js/main.ee2505c8.chunk.js"
+    "static/js/main.b63d224f.chunk.js"
   ]
 }
